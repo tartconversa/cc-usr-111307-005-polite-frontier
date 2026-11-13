@@ -1,0 +1,9 @@
+{
+  "kind": "polite-frontier",
+  "robots": "User-agent: DirectoryBot\nDisallow: /private\nAllow: /private/open$\nDisallow: /*?secret=*\n",
+  "pages": {
+    "/": "<a href=\"/busy\">繁忙站入口</a><a href=\"/detail/1#top\">资源</a><a href=\"/detail/1?utm=x\">跟踪链接</a><a href=\"/private\">内部</a>",
+    "/detail/1": "<h1>公共目录</h1><a href=\"/\">目录</a>",
+    "/busy": "<h1>恢复服务</h1>"
+  }
+}
